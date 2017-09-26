@@ -1,0 +1,42 @@
+[
+	{
+		"img":"../images/fruit-cake1.jpg",
+		"title":"果香满园---水果蛋糕",
+		"price":"￥168元"
+	},
+	{
+		"img":"../images/fruit-cake2.jpg",
+		"title":"甜心宝贝---（特价）水果蛋糕",
+		"price":"￥148元"
+	},
+	{
+		"img":"../images/fruit-cake3.jpg",
+		"title":"鲜果缤纷---鲜奶水果蛋糕",
+		"price":"￥158元"
+	},
+	{
+		"img":"../images/fruit-cake4.jpg",
+		"title":"约定---心形水果蛋糕 送恋人",
+		"price":"￥158元"
+	},
+	{
+		"img":"../images/fruit-cake5.jpg",
+		"title":"秀色可餐---（特价）水果蛋糕 适合所",
+		"price":"￥138元"
+	},
+	{
+		"img":"../images/fruit-cake6.jpg",
+		"title":"怦然心动---水果蛋糕",
+		"price":"￥168元"
+	},
+	{
+		"img":"../images/fruit-cake7.jpg",
+		"title":"绝色双娇---巧克力水果蛋糕",
+		"price":"￥178元"
+	},
+	{
+		"img":"../images/fruit-cake8.jpg",
+		"title":"清纯佳人---巧克力水果蛋糕",
+		"price":"￥178元"
+	}
+]
