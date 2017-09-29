@@ -1,0 +1,223 @@
+#footer{
+	width: 100%;
+	box-sizing: border-box;
+}
+#footer>ul{
+	width: 100%;
+	padding: 0 77px;
+	height: 84px;
+	background-color: #ff6600;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+#footer>ul>li{
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #ccc;
+	padding: 0 19px;
+}
+#footer>ul>li:nth-of-type(8){
+	border:none;
+	/*font-size: 14px;*/
+}
+#footer>ul>li>a{
+	color: white;
+	height: 40px;
+	margin-top:-10px;
+	font-size: 14px;
+}
+#footer>ul>li:nth-of-type(1)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico1.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+#footer>ul>li:nth-of-type(2)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico2.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+#footer>ul>li:nth-of-type(3)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico3.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+#footer>ul>li:nth-of-type(4)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico4.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+#footer>ul>li:nth-of-type(5)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico5.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+#footer>ul>li:nth-of-type(6)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico6.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+#footer>ul>li:nth-of-type(7)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico7.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+#footer>ul>li:nth-of-type(8)>a>span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background:url(../images/ico8.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: left;
+}
+
+
+
+#footer>.footer-help{
+	height: 250px;
+	width: 100%;
+	padding: 0 77px;
+	background-color: #f2f2f2;
+	box-sizing: border-box;
+}
+#footer>.footer-help>dl{
+	width: 180px;
+	height: 126px;
+	float: left;
+	margin-top: 30px;
+}
+#footer>.footer-help>dl>dt{
+	width: 180px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #666691;
+}
+#footer>.footer-help>dl>dd{
+	width: 180px;
+}
+#footer>.footer-help>dl>dd>p>a{
+	/*display: block;*/
+	font-size: 12px;
+	height: 24px;
+	width: 180px;
+	line-height: 24px;
+	color: #a499a4;
+}
+#footer>.footer-help>dl>dd>p>a:hover{
+	color: #ff6600;
+}
+
+
+#footer>.footer-help>.phone{
+	width: 290px;
+	height: 187px;
+	float: left;
+}
+#footer>.footer-help>.phone>dt{
+	width: 290px;
+}
+#footer>.footer-help>.phone>dt>span{
+	color: red;
+	font-size: 24px;
+}
+#footer>.footer-help>.phone>dd{
+	width: 290px;
+	font-size: 12px;
+	color: #9999af;
+	margin:10px 0;
+}
+#footer>.footer-help>.phone>div{
+	width: 320px;
+	height: 130px;
+}
+#footer>.footer-help>.phone>div>img{
+	width: 122px;
+	height: 122px;
+	margin:0 10px;
+	float: left;
+}
+#footer>.footer-help>.phone>div>div{
+	display: inline-block;
+	width: 120px;
+	height: 107px;
+	float: left;
+}
+#footer>.footer-help>.phone>div>div>p:nth-of-type(1){
+	font-size: 14px;
+	color: red;
+	margin:5px 0;
+}
+#footer>.footer-help>.phone>div>div>p:nth-of-type(2){
+	font-size: 12px;
+	color: #9999af;
+}
+#footer>.footer-help>.phone>div>div>span{
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin-top: 10px;
+	background:url(../images/common_z.png) no-repeat -134px -60px;
+}
+
+
+#footer>.footer-footer{
+	height: 130px;
+	width: 100%;
+	padding:0 77px;
+	box-sizing: border-box;
+}
+#footer>.footer-footer>p:nth-of-type(1){
+	margin-top: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+#footer>.footer-footer>p:nth-of-type(1)>a{
+	color: #666;
+}
+#footer>.footer-footer>p:nth-of-type(2){
+	margin-top: 20px;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+}
+#footer>.footer-footer>p:nth-of-type(2)>a{
+	color: black;
+}
+#footer>.footer-footer>p:nth-of-type(2)>a:hover{
+	color: orange;
+}
+#footer>.footer-footer>p:nth-of-type(3){
+	margin-top: 20px;
+	text-align: center;
+}
+#footer>.footer-footer>p:nth-of-type(3)>a{
+	color: black;
+	font-size: 12px;
+}
+#footer>.footer-footer>p:nth-of-type(3)>a:hover{
+	color: orange;
+}

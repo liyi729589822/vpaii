@@ -1,0 +1,258 @@
+#nav{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px 77px;
+	/*margin: 20px 0;*/
+	background-color: #f7f7f7;
+}
+#nav>a{
+	font-size: 14px;
+	color:#666;
+}
+#nav>a:hover{
+	color:#ff6600;
+}
+
+#cartoon-main{
+	height: 1216px;
+	width: 100%;
+	box-sizing: border-box;
+	padding:0 77px; 
+	background-color: #f7f7f7;
+}
+#cartoon-main>a{
+	display: block;
+	width: 210px;
+	height: 50px;
+	border: 1px solid #666;	
+	border-color: #ccc;
+	float: left;
+	background-color: white;
+}
+#cartoon-main>a>span:nth-of-type(1){
+	float: left;
+	font-size: 18px;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+}
+#cartoon-main>a>span:nth-of-type(2){
+	float: right;
+	font-size: 12px;
+	color: #999;
+	margin-right: 10px;
+	margin-top: 22px;
+}
+#cartoon-main>.right{
+	width: 970px;
+	/*height: 1216px;*/
+	float: right;
+}
+#cartoon-main>.right>.right-top{
+	height: 40px;
+	font-size: 12px;
+	color: #ccc;
+	line-height: 40px;
+	border:1px solid #666;
+	border-color: #ccc;
+	border-bottom: 2px solid #ccc;
+	background-color: white;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(1){
+	display: inline-block;
+	width: 230px;
+	height: 40px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(1)>a{
+	color: #666;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(1)>a:nth-of-type(1){
+	color: #ff6600;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(1)>a:hover{
+	color: #ff6600;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(2){
+	display: inline-block;
+	width: 300px;
+	height: 40px;
+	float: right;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(2)>p{
+	text-align: right;
+	color: black;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(2)>p>b{
+	color: #ff6600;
+	/*font-weight: 600;*/
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(2)>p>span{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	/*position: relative;*/
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(2)>p>span>a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border:1px solid #ccc;
+	/*padding-top:20px;*/
+	margin:0 5px;
+	/*position: relative;*/
+	/*top:10px;*/
+	line-height: 20px;
+}
+#cartoon-main>.right>.right-top>div:nth-of-type(2)>p>span>span>b{
+	color: #ff6600;
+}
+
+
+#cartoon-goods{
+	width: 970px;
+	margin-bottom: 20px;
+}
+#cartoon-goods>ul{
+	width: 970px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#cartoon-goods>ul>li{
+	width: 24%;
+	height: 350px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border:1px solid #eee;
+	background-color: white;
+}
+#cartoon-goods>ul>li:hover{
+	border-color:#ff6600;
+}
+#cartoon-goods>ul>li>a{
+	width: 100%;
+	height: 280px;
+}
+#cartoon-goods>ul>li>a>img{
+	width: 100%;
+	height: 230px;
+}
+#cartoon-goods>ul>li>a>p:nth-of-type(1){
+	width: 100%;
+	height: 50px;
+}
+#cartoon-goods>ul>li>a>p:nth-of-type(1)>span:nth-of-type(1){
+	float: left;
+	font-size: 20px;
+	display: inline-block;
+	width: 90px;
+	height: 50px;
+	line-height: 50px;
+	color: #ff6600;
+	font-weight: 600;
+}
+#cartoon-goods>ul>li>a>p:nth-of-type(1)>span:nth-of-type(2){
+	width: 90px;
+	float: right;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: #ff6600;
+	font-size: 12px;
+	text-align: right;
+}
+#cartoon-goods>ul>li>a>p:nth-of-type(2){
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	color: #666;
+	line-height: 15px;
+	padding: 0 5px;
+}
+#cartoon-goods>ul>li>p{
+	height: 38px;
+	width: 100%;	
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(1){
+	width: 24px;
+	height: 38px;
+	line-height: 26px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(1)>input{
+	width: 20px;
+	height: 20px;
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(2){
+	float: left;
+	width: 15px;
+	height: 26px;
+	margin-left: 8px;
+	
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(2)>a{
+	display: block;
+	width: 15px;
+	height: 10px;
+	/*text-align: center;
+	font-size: 12px;
+	border:1px solid #666;*/
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(2)>a:nth-of-type(1){
+	margin-bottom: 7px;
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(2)>a>button {
+	display: block;
+	width: 15px;
+	height: 10px;
+	line-height: 0px;
+	font-size: 12px;
+	text-align: center;
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(3){
+	width: 100px;
+	height: 20px;
+	border:1px solid #ccc;
+	float: left;
+	margin-left: 20px;
+}
+#cartoon-goods>ul>li>p>span:nth-of-type(3)>a{
+	display: block;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color:#ff6600;
+	font-size: 12px;
+}
+
+#fenye{
+	height: 50px;
+	width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+#fenye>a{
+	box-sizing: border-box;
+	/*display: inline-block;*/
+	width: 50px;
+	height: 50px;
+	font-size: 12px;
+	border: 1px solid #ccc; 
+	text-align: center;
+	line-height: 50px;
+	margin-left: 5px;
+}
+#fenye>.active{
+	background-color: #ff6600;
+	color: white;
+}
+#fenye>.first,#fenye>.last{
+	width: 50px;
+}
